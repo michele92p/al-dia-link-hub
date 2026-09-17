@@ -131,15 +131,13 @@
     min-height: 58px;
     padding: 14px 20px 14px 34px;
     border-radius: 16px;
+    overflow: hidden;
     color: var(--cream);
     text-decoration: none;
     background: rgba(14, 28, 19, 0.26);
-    backdrop-filter: blur(14px) saturate(150%);
-    -webkit-backdrop-filter: blur(14px) saturate(150%);
+    backdrop-filter: blur(30px) saturate(150%);
+    -webkit-backdrop-filter: blur(30px) saturate(150%);
     border: 1px solid rgba(255, 255, 255, 0.14);
-    box-shadow:
-      0 10px 24px rgba(0, 0, 0, 0.35),
-      inset 0 1px rgba(255, 255, 255, 0.1);
     transition: transform 0.15s ease, background 0.15s ease, border-color 0.15s ease;
   }
 
@@ -179,9 +177,6 @@
   .tag.primary {
     background: rgba(197, 148, 50, 0.22);
     border-color: rgba(255, 224, 150, 0.4);
-    box-shadow:
-      0 12px 26px rgba(0, 0, 0, 0.38),
-      inset 0 1px rgba(255, 248, 207, 0.35);
   }
 
   .tag.primary:hover,
